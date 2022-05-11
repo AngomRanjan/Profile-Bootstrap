@@ -24,4 +24,6 @@
   background-size: contain;
 }
 
+#about { border-top-right-radius: 100px; }
+
 /* || Typography */
