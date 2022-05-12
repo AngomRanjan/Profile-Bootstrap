@@ -11,9 +11,9 @@
 - HTML
 - CSS
 
-## [Source Code](https://github.com/AngomRanjan/Profile-Bootstrap.git)
+#### [Source Code](https://github.com/AngomRanjan/Profile-Bootstrap.git)
 
-## [Live Demo](https://angomranjan.github.io/Profile-Bootstrap/)
+#### [Live Demo](https://angomranjan.github.io/Profile-Bootstrap/)
 
 ## Authors
 
