@@ -38,8 +38,8 @@
 
     <!--  The Headline Section -->
 
-    <section class="headline container-fluid row justify-content-center align-items-center" id="headline">
-      <div class="col-md-9 col-lg-7">
+    <section class="container-fluid justify-content-center align-items-center" id="headline">
+      <div class="container col-md-9 col-lg-7 py-5">
         <div class="container" id="intro">
           <h1>Hi I am Angom, <br>
               Glad to see you!
@@ -273,6 +273,62 @@
           <!-- Accordion ends -->
         </div>
       </div>
+    </section>
+
+    <!-- The Footer -->
+
+    <section class="container-fluid bg-white p-0 m-0" id="footer">
+      <div class="container-fluid justify-content-center align-items-center bg-primary" id="foot">
+        <div class="container-lg align-items-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-7 text-center text-white pt-5 pb-3">
+              <h2 class="mt-0 fw-bold">Contact Me</h2>
+              <p>
+                If you have an application you are interested in developing, a feature
+                that you need built or a project that needs coding. I’d love to help
+                with it</p>
+            </div>
+          </div>
+          <div class="row justify-content-center m-0">
+            <div class="col-lg-7">
+              <form action="https://formspree.io/f/xbjwpzkw" method="post">
+
+                <!-- name area -->
+                <label for="name" class="form-label m-0">Name :</label>
+                <div class="input-group mb-1 mt-1">
+                  <span class="input-group-text">
+                    <i class="bi bi-person-fill"></i>
+                  </span>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="e.g. Neo" maxlength="30" required>
+                </div>  
+                
+                <!-- email area -->
+                <label for="email" class="form-label m-0">Email address :</label>
+                <div class="input-group mb-1 mt-1">
+                  <span class="input-group-text">
+                    <i class="bi bi-envelope-fill"></i>
+                  </span>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="e.g. neo23@gmail.com" required>
+                </div> 
+
+                <!-- msg area -->
+                <div class="form-floating mb-4 mt-3">
+                  <textarea id="message" name="message" class="form-control"  rows="10" maxlength="500" required></textarea>
+                  <label for="message">Your message</label>
+                </div> 
+                
+                <!-- button -->
+                <div class="mb-5 mt-3 text-center">
+                  <button type="submit" class="btn btn-secondary">Submit</button>
+                </div> 
+              </form>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
     </section>
 
     <!-- Bootstrap Bundle with Popper -->
